@@ -1,29 +1,28 @@
-body{
-	font-family: Arial, sans-serif;
+body {
+  font-family: Arial, sans-serif;
 }
 
-#openModel{
-	margin: 20px;
-	padding: 10px 15px;
+#openModal {
+  margin: 20px;
+  padding: 10px 15px;
 }
 
-.modal{
-	display:none;
-	position: fixed;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	background-color: rgba(0,0,0,0.5);
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.modal-content{
-	background-color: #fff;
-		width: 40%;
-	margin: 10% auto;
-	border-radius: 5px;
+.modal-content {
+  background-color: #fff;
+  width: 40%;
+  margin: 10% auto;
+  border-radius: 5px;
 }
-
 
 .modal-header {
   display: flex;
