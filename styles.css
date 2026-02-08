@@ -1,1 +1,44 @@
-/*  your css code here. If applicable */
+body{
+	font-family: Arial, sans-serif;
+}
+
+#openModel{
+	margin: 20px;
+	padding: 10px 15px;
+}
+
+.modal{
+	display:none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content{
+	background-color: #fff;
+		width: 40%;
+	margin: 10% auto;
+	border-radius: 5px;
+}
+
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+.close-modal {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modal-body {
+  padding: 15px;
+}
